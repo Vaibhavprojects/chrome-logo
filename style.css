@@ -1,0 +1,91 @@
+
+    /* .outer-circle{
+        border: 1px solid blue;
+        height: 400px;
+        width: 400px;
+        display: grid;
+        background-image: linear-gradient(-15deg,#1DA462 0%, #1DA462 30%,#FFCD46 30%, #FFCD46 70%,#DD5144 60%, #DD5144 100%);
+        border-radius: 50%;
+        place-items: center;
+    }
+    .inner-circle{
+        border: 15px solid white;
+        border-radius: 50%;
+        background-color:#4C8BF5;
+        height: 200px;
+        width: 200px;
+    } */
+
+    .chrome {
+        /* border: 1px solid blue; */
+        height: 400px;
+        width: 400px;
+        display: grid;
+        border-radius: 50%;
+        place-items: center;
+        background-color: #1DA462;
+        overflow: hidden;
+    }
+
+    .center {
+        border: 15px solid white;
+        border-radius: 50%;
+        background-color: #4C8BF5;
+        margin-bottom: 15px;
+        z-index: -1;
+        height: 190px;
+        width: 190px;
+    }
+    .circle{
+        z-index: 100;
+    }
+
+    .division1{
+        background-color: #1DA462;
+        rotate: 109deg;
+        margin-right: 65px;
+        margin-top: 26px;
+        height: 445%;
+        width: 172%;
+        z-index: 3;
+    }
+    .division2 {
+        background-color: #DD5144;
+        rotate: 47deg;
+        margin-top: 10px;
+        z-index: 1;
+        height: 630%;
+        width: 95%;
+    }
+    .division2 {
+        background-color: #DD5144;
+        rotate: 45deg;
+        margin-top: 10px;
+        z-index: 4;
+        height: 630%;
+        width: 112%;
+    }
+
+    .division3 {
+        /* background-color: #FFCD46; */
+        rotate: -80deg;
+        height: 900%;
+        z-index: 2;
+        margin-left: 130px;
+        width: 110%;
+    }
+    .division3 {
+        /* border: 1px solid red; */
+        background-color: #FFCD46;
+        rotate: -76deg;
+        height: 800%;
+        z-index: 4;
+        margin-top: 5px;
+        margin-left: 230px;
+        width: 100%;
+    }
+
+    
+    /* .division1{
+        background-color: #1DA462;
+    } */
